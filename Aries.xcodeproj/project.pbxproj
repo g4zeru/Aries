@@ -1,0 +1,684 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5F9B663A24EC06370072E47B /* AriesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B663924EC06370072E47B /* AriesApp.swift */; };
+		5F9B663E24EC06380072E47B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9B663D24EC06380072E47B /* Assets.xcassets */; };
+		5F9B664124EC06380072E47B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5F9B664024EC06380072E47B /* Preview Assets.xcassets */; };
+		5F9B664C24EC06390072E47B /* AriesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B664B24EC06390072E47B /* AriesTests.swift */; };
+		5F9B665724EC06390072E47B /* AriesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B665624EC06390072E47B /* AriesUITests.swift */; };
+		5F9B666524EC06A60072E47B /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B666424EC06A60072E47B /* HomeView.swift */; };
+		5F9B666824EC077E0072E47B /* Aries.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5F9B666624EC077E0072E47B /* Aries.xcdatamodeld */; };
+		5FE0C51524ED658100CB4D63 /* AppStorageKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51424ED658100CB4D63 /* AppStorageKey.swift */; };
+		5FE0C51724ED66F100CB4D63 /* PrepareBankView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51624ED66F100CB4D63 /* PrepareBankView.swift */; };
+		5FE0C51924ED67DE00CB4D63 /* AriesiButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51824ED67DE00CB4D63 /* AriesiButton.swift */; };
+		5FE0C51B24ED6A0F00CB4D63 /* TextBox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51A24ED6A0F00CB4D63 /* TextBox.swift */; };
+		5FE0C51E24ED6FEA00CB4D63 /* PushNotificationsSettingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51D24ED6FEA00CB4D63 /* PushNotificationsSettingView.swift */; };
+		5FE0C52024ED729B00CB4D63 /* Ex+Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C51F24ED729B00CB4D63 /* Ex+Color.swift */; };
+		5FE0C52524ED76BA00CB4D63 /* AriesLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52424ED76BA00CB4D63 /* AriesLink.swift */; };
+		5FE0C52724ED799A00CB4D63 /* SelectFrequencyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52624ED799A00CB4D63 /* SelectFrequencyView.swift */; };
+		5FE0C52924ED7B9000CB4D63 /* Frequency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52824ED7B9000CB4D63 /* Frequency.swift */; };
+		5FE0C52B24ED7D8B00CB4D63 /* InputPaymentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52A24ED7D8B00CB4D63 /* InputPaymentView.swift */; };
+		5FE0C52D24ED88E800CB4D63 /* HomeViewTemplate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52C24ED88E800CB4D63 /* HomeViewTemplate.swift */; };
+		5FE0C52F24ED8EA500CB4D63 /* Ex+Calender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C52E24ED8EA500CB4D63 /* Ex+Calender.swift */; };
+		5FE0C53324EDBD7000CB4D63 /* ErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FE0C53224EDBD7000CB4D63 /* ErrorView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5F9B664824EC06390072E47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9B662E24EC06370072E47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9B663524EC06370072E47B;
+			remoteInfo = Tataraboshi;
+		};
+		5F9B665324EC06390072E47B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5F9B662E24EC06370072E47B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5F9B663524EC06370072E47B;
+			remoteInfo = Tataraboshi;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5F9B663624EC06370072E47B /* Aries.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Aries.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9B663924EC06370072E47B /* AriesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriesApp.swift; sourceTree = "<group>"; };
+		5F9B663D24EC06380072E47B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5F9B664024EC06380072E47B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5F9B664224EC06380072E47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9B664724EC06390072E47B /* AriesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9B664B24EC06390072E47B /* AriesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriesTests.swift; sourceTree = "<group>"; };
+		5F9B664D24EC06390072E47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9B665224EC06390072E47B /* AriesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AriesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5F9B665624EC06390072E47B /* AriesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriesUITests.swift; sourceTree = "<group>"; };
+		5F9B665824EC06390072E47B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F9B666424EC06A60072E47B /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		5F9B666724EC077E0072E47B /* Tataraboshi.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Tataraboshi.xcdatamodel; sourceTree = "<group>"; };
+		5FE0C51424ED658100CB4D63 /* AppStorageKey.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStorageKey.swift; sourceTree = "<group>"; };
+		5FE0C51624ED66F100CB4D63 /* PrepareBankView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrepareBankView.swift; sourceTree = "<group>"; };
+		5FE0C51824ED67DE00CB4D63 /* AriesiButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriesiButton.swift; sourceTree = "<group>"; };
+		5FE0C51A24ED6A0F00CB4D63 /* TextBox.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextBox.swift; sourceTree = "<group>"; };
+		5FE0C51C24ED6FC200CB4D63 /* Aries.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Aries.entitlements; sourceTree = "<group>"; };
+		5FE0C51D24ED6FEA00CB4D63 /* PushNotificationsSettingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationsSettingView.swift; sourceTree = "<group>"; };
+		5FE0C51F24ED729B00CB4D63 /* Ex+Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Color.swift"; sourceTree = "<group>"; };
+		5FE0C52424ED76BA00CB4D63 /* AriesLink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AriesLink.swift; sourceTree = "<group>"; };
+		5FE0C52624ED799A00CB4D63 /* SelectFrequencyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectFrequencyView.swift; sourceTree = "<group>"; };
+		5FE0C52824ED7B9000CB4D63 /* Frequency.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Frequency.swift; sourceTree = "<group>"; };
+		5FE0C52A24ED7D8B00CB4D63 /* InputPaymentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputPaymentView.swift; sourceTree = "<group>"; };
+		5FE0C52C24ED88E800CB4D63 /* HomeViewTemplate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewTemplate.swift; sourceTree = "<group>"; };
+		5FE0C52E24ED8EA500CB4D63 /* Ex+Calender.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Ex+Calender.swift"; sourceTree = "<group>"; };
+		5FE0C53224EDBD7000CB4D63 /* ErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5F9B663324EC06370072E47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B664424EC06390072E47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B664F24EC06390072E47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F9B662D24EC06370072E47B = {
+			isa = PBXGroup;
+			children = (
+				5F9B663824EC06370072E47B /* Aries */,
+				5F9B664A24EC06390072E47B /* AriesTests */,
+				5F9B665524EC06390072E47B /* AriesUITests */,
+				5F9B663724EC06370072E47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5F9B663724EC06370072E47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B663624EC06370072E47B /* Aries.app */,
+				5F9B664724EC06390072E47B /* AriesTests.xctest */,
+				5F9B665224EC06390072E47B /* AriesUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5F9B663824EC06370072E47B /* Aries */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0C51C24ED6FC200CB4D63 /* Aries.entitlements */,
+				5F9B663924EC06370072E47B /* AriesApp.swift */,
+				5F9B666624EC077E0072E47B /* Aries.xcdatamodeld */,
+				5F9B663D24EC06380072E47B /* Assets.xcassets */,
+				5F9B664224EC06380072E47B /* Info.plist */,
+				5F9B663F24EC06380072E47B /* Preview Content */,
+				5FE0C52124ED733800CB4D63 /* UIComponents */,
+			);
+			path = Aries;
+			sourceTree = "<group>";
+		};
+		5F9B663F24EC06380072E47B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B664024EC06380072E47B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5F9B664A24EC06390072E47B /* AriesTests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B664B24EC06390072E47B /* AriesTests.swift */,
+				5F9B664D24EC06390072E47B /* Info.plist */,
+			);
+			path = AriesTests;
+			sourceTree = "<group>";
+		};
+		5F9B665524EC06390072E47B /* AriesUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5F9B665624EC06390072E47B /* AriesUITests.swift */,
+				5F9B665824EC06390072E47B /* Info.plist */,
+			);
+			path = AriesUITests;
+			sourceTree = "<group>";
+		};
+		5FE0C52124ED733800CB4D63 /* UIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0C51624ED66F100CB4D63 /* PrepareBankView.swift */,
+				5FE0C53224EDBD7000CB4D63 /* ErrorView.swift */,
+				5FE0C52624ED799A00CB4D63 /* SelectFrequencyView.swift */,
+				5FE0C52A24ED7D8B00CB4D63 /* InputPaymentView.swift */,
+				5FE0C51D24ED6FEA00CB4D63 /* PushNotificationsSettingView.swift */,
+				5FE0C52C24ED88E800CB4D63 /* HomeViewTemplate.swift */,
+				5F9B666424EC06A60072E47B /* HomeView.swift */,
+				5FE0C52324ED734D00CB4D63 /* common */,
+				5FE0C52224ED734100CB4D63 /* utils */,
+			);
+			path = UIComponents;
+			sourceTree = "<group>";
+		};
+		5FE0C52224ED734100CB4D63 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0C51424ED658100CB4D63 /* AppStorageKey.swift */,
+				5FE0C52E24ED8EA500CB4D63 /* Ex+Calender.swift */,
+				5FE0C51F24ED729B00CB4D63 /* Ex+Color.swift */,
+				5FE0C52824ED7B9000CB4D63 /* Frequency.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		5FE0C52324ED734D00CB4D63 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				5FE0C51A24ED6A0F00CB4D63 /* TextBox.swift */,
+				5FE0C51824ED67DE00CB4D63 /* AriesiButton.swift */,
+				5FE0C52424ED76BA00CB4D63 /* AriesLink.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5F9B663524EC06370072E47B /* Aries */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9B665B24EC06390072E47B /* Build configuration list for PBXNativeTarget "Aries" */;
+			buildPhases = (
+				5F9B663224EC06370072E47B /* Sources */,
+				5F9B663324EC06370072E47B /* Frameworks */,
+				5F9B663424EC06370072E47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Aries;
+			productName = Tataraboshi;
+			productReference = 5F9B663624EC06370072E47B /* Aries.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5F9B664624EC06390072E47B /* AriesTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9B665E24EC06390072E47B /* Build configuration list for PBXNativeTarget "AriesTests" */;
+			buildPhases = (
+				5F9B664324EC06390072E47B /* Sources */,
+				5F9B664424EC06390072E47B /* Frameworks */,
+				5F9B664524EC06390072E47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9B664924EC06390072E47B /* PBXTargetDependency */,
+			);
+			name = AriesTests;
+			productName = TataraboshiTests;
+			productReference = 5F9B664724EC06390072E47B /* AriesTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5F9B665124EC06390072E47B /* AriesUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5F9B666124EC06390072E47B /* Build configuration list for PBXNativeTarget "AriesUITests" */;
+			buildPhases = (
+				5F9B664E24EC06390072E47B /* Sources */,
+				5F9B664F24EC06390072E47B /* Frameworks */,
+				5F9B665024EC06390072E47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5F9B665424EC06390072E47B /* PBXTargetDependency */,
+			);
+			name = AriesUITests;
+			productName = TataraboshiUITests;
+			productReference = 5F9B665224EC06390072E47B /* AriesUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5F9B662E24EC06370072E47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					5F9B663524EC06370072E47B = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					5F9B664624EC06390072E47B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5F9B663524EC06370072E47B;
+					};
+					5F9B665124EC06390072E47B = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 5F9B663524EC06370072E47B;
+					};
+				};
+			};
+			buildConfigurationList = 5F9B663124EC06370072E47B /* Build configuration list for PBXProject "Aries" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5F9B662D24EC06370072E47B;
+			productRefGroup = 5F9B663724EC06370072E47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5F9B663524EC06370072E47B /* Aries */,
+				5F9B664624EC06390072E47B /* AriesTests */,
+				5F9B665124EC06390072E47B /* AriesUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5F9B663424EC06370072E47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9B664124EC06380072E47B /* Preview Assets.xcassets in Resources */,
+				5F9B663E24EC06380072E47B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B664524EC06390072E47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B665024EC06390072E47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5F9B663224EC06370072E47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9B666524EC06A60072E47B /* HomeView.swift in Sources */,
+				5FE0C52024ED729B00CB4D63 /* Ex+Color.swift in Sources */,
+				5FE0C52B24ED7D8B00CB4D63 /* InputPaymentView.swift in Sources */,
+				5FE0C51E24ED6FEA00CB4D63 /* PushNotificationsSettingView.swift in Sources */,
+				5FE0C51724ED66F100CB4D63 /* PrepareBankView.swift in Sources */,
+				5FE0C51924ED67DE00CB4D63 /* AriesiButton.swift in Sources */,
+				5FE0C51524ED658100CB4D63 /* AppStorageKey.swift in Sources */,
+				5FE0C52724ED799A00CB4D63 /* SelectFrequencyView.swift in Sources */,
+				5F9B666824EC077E0072E47B /* Aries.xcdatamodeld in Sources */,
+				5FE0C52924ED7B9000CB4D63 /* Frequency.swift in Sources */,
+				5FE0C52F24ED8EA500CB4D63 /* Ex+Calender.swift in Sources */,
+				5FE0C51B24ED6A0F00CB4D63 /* TextBox.swift in Sources */,
+				5FE0C52D24ED88E800CB4D63 /* HomeViewTemplate.swift in Sources */,
+				5FE0C52524ED76BA00CB4D63 /* AriesLink.swift in Sources */,
+				5F9B663A24EC06370072E47B /* AriesApp.swift in Sources */,
+				5FE0C53324EDBD7000CB4D63 /* ErrorView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B664324EC06390072E47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9B664C24EC06390072E47B /* AriesTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5F9B664E24EC06390072E47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9B665724EC06390072E47B /* AriesUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5F9B664924EC06390072E47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9B663524EC06370072E47B /* Aries */;
+			targetProxy = 5F9B664824EC06390072E47B /* PBXContainerItemProxy */;
+		};
+		5F9B665424EC06390072E47B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5F9B663524EC06370072E47B /* Aries */;
+			targetProxy = 5F9B665324EC06390072E47B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5F9B665924EC06390072E47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5F9B665A24EC06390072E47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5F9B665C24EC06390072E47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aries/Aries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Aries/Preview Content\"";
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Aries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.Aries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		5F9B665D24EC06390072E47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Aries/Aries.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Aries/Preview Content\"";
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = Aries/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.01;
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.Aries;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		5F9B665F24EC06390072E47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				INFOPLIST_FILE = AriesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.AriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aries.app/Aries";
+			};
+			name = Debug;
+		};
+		5F9B666024EC06390072E47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				INFOPLIST_FILE = AriesTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.AriesTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Aries.app/Aries";
+			};
+			name = Release;
+		};
+		5F9B666224EC06390072E47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				INFOPLIST_FILE = AriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.AriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aries;
+			};
+			name = Debug;
+		};
+		5F9B666324EC06390072E47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8446Z6F5D6;
+				INFOPLIST_FILE = AriesUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = tokyo.teranyan.AriesUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Aries;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5F9B663124EC06370072E47B /* Build configuration list for PBXProject "Aries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9B665924EC06390072E47B /* Debug */,
+				5F9B665A24EC06390072E47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9B665B24EC06390072E47B /* Build configuration list for PBXNativeTarget "Aries" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9B665C24EC06390072E47B /* Debug */,
+				5F9B665D24EC06390072E47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9B665E24EC06390072E47B /* Build configuration list for PBXNativeTarget "AriesTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9B665F24EC06390072E47B /* Debug */,
+				5F9B666024EC06390072E47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5F9B666124EC06390072E47B /* Build configuration list for PBXNativeTarget "AriesUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5F9B666224EC06390072E47B /* Debug */,
+				5F9B666324EC06390072E47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		5F9B666624EC077E0072E47B /* Aries.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				5F9B666724EC077E0072E47B /* Tataraboshi.xcdatamodel */,
+			);
+			currentVersion = 5F9B666724EC077E0072E47B /* Tataraboshi.xcdatamodel */;
+			path = Aries.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 5F9B662E24EC06370072E47B /* Project object */;
+}
